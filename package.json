@@ -1,0 +1,26 @@
+{
+  "name": "test-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "mul.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/belozyorovany/test-test.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/belozyorovany/test-test/issues"
+  },
+  "homepage": "https://github.com/belozyorovany/test-test#readme",
+  "dependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^8.2.1"
+  }
+}
