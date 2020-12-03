@@ -3,8 +3,6 @@ function mul(a, b) {
     throw TypeError();
   }
 
-  // some change
-
   return a * b;
 }
 
