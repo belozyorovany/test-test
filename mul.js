@@ -3,9 +3,7 @@ function mul(a, b) {
     throw TypeError();
   }
 
-  // some change
-
-  return a * b;
+  return a + b;
 }
 
 module.exports = mul;
