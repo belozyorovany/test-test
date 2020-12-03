@@ -20,7 +20,9 @@
   },
   "homepage": "https://github.com/belozyorovany/test-test#readme",
   "dependencies": {
+    "axios": "^0.21.0",
     "chai": "^4.2.0",
+    "koa": "^2.13.0",
     "mocha": "^8.2.1"
   }
 }
