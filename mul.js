@@ -1,5 +1,5 @@
 function mul(a, b) {
-  if (typeof a !== 'number' || typeof b !== 'number') {
+  if (typeof a !== 'number' || typeof b !== 'number') {!
     throw TypeError();
   }
 
