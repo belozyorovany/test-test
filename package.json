@@ -4,7 +4,16 @@
   "description": "",
   "main": "index.js",
   "directories": {
-    "test": "test"
+    "test": "test",
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "axios": "^0.21.0",
+    "chai": "^4.2.0",
+    "koa": "^2.13.0"
+  },
+  "devDependencies": {
+    "mocha": "^8.2.1"
   },
   "scripts": {
     "test": "mocha"
@@ -13,16 +22,10 @@
     "type": "git",
     "url": "git+https://github.com/belozyorovany/test-test.git"
   },
-  "author": "",
+  "author": "Natalya Ryzhikh",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/belozyorovany/test-test/issues"
   },
-  "homepage": "https://github.com/belozyorovany/test-test#readme",
-  "dependencies": {
-    "axios": "^0.21.0",
-    "chai": "^4.2.0",
-    "koa": "^2.13.0",
-    "mocha": "^8.2.1"
-  }
+  "homepage": "https://github.com/belozyorovany/test-test#readme"
 }
