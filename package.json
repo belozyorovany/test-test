@@ -4,8 +4,7 @@
   "description": "",
   "main": "index.js",
   "directories": {
-    "test": "test",
-    "start": "node index.js"
+    "test": "test"
   },
   "dependencies": {
     "axios": "^0.21.0",
@@ -16,7 +15,8 @@
     "mocha": "^8.2.1"
   },
   "scripts": {
-    "test": "mocha"
+    "test": "mocha",
+    "start": "node index.js"
   },
   "repository": {
     "type": "git",
